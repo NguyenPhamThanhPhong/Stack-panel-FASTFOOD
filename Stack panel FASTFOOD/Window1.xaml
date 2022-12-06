@@ -1,0 +1,161 @@
+﻿<Window x:Class="Stack_panel_FASTFOOD.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Stack_panel_FASTFOOD"
+        mc:Ignorable="d"
+        Title="Window1" Height="406" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="3*" />
+        </Grid.RowDefinitions>
+        <Image Source="C:\Users\user\Desktop\tren mang ve\rocket.png" Width="30"></Image>
+        <Button Grid.Column="1" Click="Button_Click">Button 2</Button>
+        <ScrollViewer Grid.Column="1" Grid.Row="1">
+            <StackPanel Orientation="Vertical">
+                <StackPanel Orientation="Horizontal">
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="3*" />
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Margin="10" Source="C:\Users\user\Desktop\tren mang ve\rocket.png" Width="30"></Image>
+                        <Button Grid.Row="1" FontSize="26">alsdjdj</Button>
+                    </Grid>
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="3*" />
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Margin="10" Source="C:\Users\user\Desktop\tren mang ve\rocket.png" Width="30"></Image>
+                        <Button Grid.Row="1" FontSize="26">alsdjdj</Button>
+                    </Grid>
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="3*" />
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Margin="10" Source="C:\Users\user\Desktop\tren mang ve\rocket.png" Width="30"></Image>
+                        <Button Grid.Row="1" FontSize="26">alsdjdj</Button>
+                    </Grid>
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="3*" />
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Margin="10" Source="C:\Users\user\Desktop\tren mang ve\rocket.png" Width="30"></Image>
+                        <Button Grid.Row="1" FontSize="26">alsdjdj</Button>
+                    </Grid>
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="3*" />
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Margin="10" Source="C:\Users\user\Desktop\tren mang ve\rocket.png" Width="30"></Image>
+                        <Button Grid.Row="1" FontSize="26">alsdjdj</Button>
+                    </Grid>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="3*" />
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Margin="10" Source="C:\Users\user\Desktop\tren mang ve\rocket.png" Width="30"></Image>
+                        <Button Grid.Row="1" FontSize="26">alsdjdj</Button>
+                    </Grid>
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="3*" />
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Margin="10" Source="C:\Users\user\Desktop\tren mang ve\rocket.png" Width="30"></Image>
+                        <Button Grid.Row="1" FontSize="26">alsdjdj</Button>
+                    </Grid>
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="3*" />
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Margin="10" Source="C:\Users\user\Desktop\tren mang ve\rocket.png" Width="30"></Image>
+                        <Button Grid.Row="1" FontSize="26">alsdjdj</Button>
+                    </Grid>
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="3*" />
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Margin="10" Source="C:\Users\user\Desktop\tren mang ve\rocket.png" Width="30"></Image>
+                        <Button Grid.Row="1" FontSize="26">alsdjdj</Button>
+                    </Grid>
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="3*" />
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Margin="10" Source="C:\Users\user\Desktop\tren mang ve\rocket.png" Width="30"></Image>
+                        <Button Grid.Row="1" FontSize="26">alsdjdj</Button>
+                    </Grid>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="3*" />
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Margin="10" Source="C:\Users\user\Desktop\tren mang ve\rocket.png" Width="30"></Image>
+                        <Button Grid.Row="1" FontSize="26">alsdjdj</Button>
+                    </Grid>
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="3*" />
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Margin="10" Source="C:\Users\user\Desktop\tren mang ve\rocket.png" Width="30"></Image>
+                        <Button Grid.Row="1" FontSize="26">alsdjdj</Button>
+                    </Grid>
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="3*" />
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Margin="10" Source="C:\Users\user\Desktop\tren mang ve\rocket.png" Width="30"></Image>
+                        <Button Grid.Row="1" FontSize="26">alsdjdj</Button>
+                    </Grid>
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="3*" />
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Margin="10" Source="C:\Users\user\Desktop\tren mang ve\rocket.png" Width="30"></Image>
+                        <Button Grid.Row="1" FontSize="26">alsdjdj</Button>
+                    </Grid>
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="3*" />
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Margin="10" Source="C:\Users\user\Desktop\tren mang ve\rocket.png" Width="30"></Image>
+                        <Button Grid.Row="1" FontSize="26">alsdjdj</Button>
+                    </Grid>
+                </StackPanel>
+                <StackPanel Name="stack_panel" Orientation="Horizontal">
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="3*" />
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Margin="10" Source="C:\Users\user\Desktop\tren mang ve\rocket.png" Width="30"></Image>
+                        <Button Grid.Row="1" FontSize="26">alsdjdj</Button>
+                    </Grid>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>
